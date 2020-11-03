@@ -36,7 +36,7 @@ app.listen(port, function () {
 });
 
 /* Database Connection */
-let uri = 'mongodb+srv://user1:' + process.env.PW + '@freecodecamp.b0myq.mongodb.net/db1?retryWrites=true&w=majority'
+let uri = 'mongodb+srv://Lasha_Iakobadze:lasha123321@freecodecamp.ytjr4.mongodb.net/db1?retryWrites=true&w=majority'
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 let urlSchema = new mongoose.Schema({
